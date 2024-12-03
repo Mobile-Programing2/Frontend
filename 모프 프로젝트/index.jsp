@@ -188,7 +188,7 @@
                 <li>
                     <div class="news_title">도심 속 러닝</div>
                     <div class="img1"></div>
-                    <p>호그와트, ms세계마법학교평가 1위</p>
+                    <p>요즘엔 러닝이 대세!</p>
                     <em>러닝이 대세인 지금, 당신의 기록을 소개하세요.
                     </em>
                 </li>
