@@ -1,0 +1,294 @@
+.pay_wrap{
+    width:90%;
+}
+
+
+.pay_wrap h2{
+margin-bottom: 30px;
+margin-top: 50px;
+}
+.cart {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cart;
+    src: url(../font/Paperlogy-4Regular.ttf);
+}
+
+@font-face {
+    font-family: bb;
+    src: url(../font/Paperlogy-5Medium.ttf);
+}
+
+.cart_id {
+    font-family: cart;
+    font-size: 25px;
+}
+
+.cart ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: 1px solid #000;
+    font-weight: bold;
+
+}
+
+.cart .cart_name {
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    font-family: cart;
+    height: 40px;
+    line-height: 40px;
+    gap: 30px;
+}
+
+.cart ul li:nth-child(1) {
+    width: 100px;
+overflow: hidden;
+
+}
+
+.cart ul li:nth-child(2) {
+    width: 250px;
+
+}
+.cart ul li:nth-child(3) {
+    width: 100px;
+}
+.cart .cart_content {
+    height: 100px;
+    gap: 30px;
+  
+}
+
+.cart .cart_content li:nth-child(1) {
+    line-height: 100px;
+}
+
+.cart .cart_content li:nth-child(3) {
+    line-height: 100px;
+}
+
+.cart .cart_content li:nth-child(4) {
+    line-height: 100px;
+}
+
+.cart .cart_content li:nth-child(5) {
+    line-height: 100px;
+}
+
+.cart .cart_content li:nth-child(6) {
+    line-height: 100px;
+}
+
+.cart .cart_content li:nth-child(2) {
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.cart .cart_content li {
+    position: relative;
+}
+
+
+
+.cart img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.cart button {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    overflow: hidden;
+    width: 30px;
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 35px;
+    transition: ease-in 0.3s;
+}
+
+.cart button:hover {
+    color: #763c0a;
+
+}
+.grand-total{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.totalSpan{
+    font-size: 1.3em;
+    color: #763c0a;
+    margin: 0 15px;
+}
+.go_pay{
+    text-align: center;
+    background-color: #763c0a;
+    display: block;
+    width:40%;
+    margin: 0 auto;
+    height:50px;
+    line-height: 50px;
+border-radius: 10px;
+font-size: 20px;
+color: #fff;
+}
+
+.pay_content{
+    display: flex;
+    justify-content: space-between;
+}
+.pay_content ul{
+    background-color: #a79ee7;
+    font-weight: bold;
+
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    width:48%;
+
+}
+
+.pay_content ul li:nth-child(1){
+    flex: 0.3;
+    box-sizing: border-box;
+    padding-left: 50px;
+} 
+.pay_content ul li:nth-child(2){
+    flex: 0.8;
+} 
+input[type="text"]{
+    border: none;
+    outline: none;
+
+}
+
+
+.pay_content2{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.pay_content2 ul{
+    background-color: #a79ee7;
+    font-weight: bold;
+
+
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    width:32%;
+
+}
+
+.pay_content2 ul li:nth-child(1){
+    flex: 0.3;
+    box-sizing: border-box;
+    padding-left: 50px;
+} 
+.pay_content2 ul li:nth-child(2){
+    flex: 0.7;
+} 
+
+input[type="text"]{
+    border: none;
+    outline: none;
+
+}
+input[type="password"]{
+    border: none;
+    outline: none;
+
+}
+
+.pay_content3{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+font-weight: bold;
+
+}
+.pay_content3 ul{
+    background-color: #a79ee7;
+
+
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    width:48%;
+
+}
+
+.pay_content3 ul li:nth-child(1){
+    flex: 0.3;
+    box-sizing: border-box;
+    padding-left: 50px;
+} 
+.pay_content3 ul li:nth-child(2){
+    flex: 0.7;
+} 
+.pay_card{
+    width: 100%;
+    background-color: #a79ee7;
+
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 50px;
+font-weight: bold;
+
+}
+.pay_card ul{
+    display: flex;
+}
+.pay_card ul li:nth-child(1){
+    flex: 0.14;
+}
+
+.pay_card ul li:nth-child(2){
+    flex: 0.7;
+}
+@font-face {
+    font-family: sub;
+    src: url(../font/Paperlogy-8ExtraBold.ttf);
+}
+input[type="submit"]{
+    font-family: sub;
+font-size: 35px;
+    width:50%;
+    margin: 80px auto;
+    display: block;
+   margin-bottom: 100px;
+   height: 100px;
+   border-radius: 10px;
+   border: none;
+   background-color: #a79ee7;
+font-weight: bold;
+
+   transition: ease-in 0.3s;
+   cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #2e228a;
+
+    color: #ccc;
+}
+

@@ -1,0 +1,97 @@
+.order_content{
+    width:70%;
+    margin: 0 auto;
+    padding: 100px 30px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.order_image{
+    float: left;
+    width: 550px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin-right: 50px;
+}
+.order_text{
+    float: left;
+}
+@font-face {
+    font-family: order;
+    src: url(../font/Paperlogy-5Medium.ttf);
+}
+.order_text ul{
+    font-family: order;
+    
+    width:450px;
+}
+.order_text ul li{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/*상품 이름*/
+.order_text ul li:nth-child(1){
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #2e228a;
+    
+}
+/*상품 회사*/
+.order_text ul li:nth-child(2){
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+/*상품 소개*/
+.order_text ul li:nth-child(3){
+    font-size: 20px;
+    font-size: 20px;
+}
+/*상품 가격*/
+.order_text ul li:nth-child(4){
+    font-size: 20px;
+   
+  
+}
+/*상품 수량*/
+.order_text ul li:nth-child(5){
+  
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+input[type="number"]{
+    margin-left: 20px;
+    width:50px;
+    height: 20px;
+    font-size: 20px;margin-bottom: 30px;
+}
+.red{
+    font-size: 15px;
+    color: red;
+}
+@font-face {
+    font-family: 장바구니;
+    src: url(../font/Paperlogy-8ExtraBold.ttf);
+}
+input[type="submit"]{
+    font-family: 장바구니;
+font-size: 22px;
+    width:45%;
+    margin-right: 15px;
+    border:none;
+    outline: none;
+    height:70px;
+background-color: #7666f2;
+font-weight: bold;
+color: #fff;
+border-radius: 10px;
+transition: ease-in 0.2s;
+cursor: pointer;
+margin-bottom: 0px;
+}
+input[type="submit"]:hover{
+background-color: #2e228a;
+}
+#price{
+    color: red;
+}

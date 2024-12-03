@@ -1,0 +1,38 @@
+.orderResult_wrap{
+    width:100%;
+    height:400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+.xi-check-circle-o{
+    font-size: 205px;
+    margin-bottom: 30px;
+}
+@font-face {
+    font-family: pp;
+    src: url(../font/Paperlogy-4Regular.ttf);
+}
+@font-face {
+    font-family: bb;
+    src: url(../font/Paperlogy-5Medium.ttf);
+}
+.orderResult_wrap p{
+    font-family: pp;
+    font-size: 20px;
+}
+.orderResult_wrap p b{
+    font-family: bb;
+
+}
+.orderResult_wrap span{
+    color: #2e228a;
+    font-weight: bold;
+   font-size: 25px;
+}

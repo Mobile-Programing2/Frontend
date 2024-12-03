@@ -1,0 +1,80 @@
+section {
+    width: 87%;
+    margin-left: 13%;
+    background-color: #fff;
+    position: relative;
+    padding-top: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 5%;
+    font-family: none;
+    font-family: "Nanum Gothic", sans-serif;
+}
+.section1 h1{
+    font-size: 85px;
+   color: #2e228a;
+}
+.section1 h1 span{
+    font-size: 25px;
+    color: #000;
+}
+.line{
+    width:95%;
+    height: 5px;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.section1 em{
+    color: red;
+   font-weight: bold;
+margin-top: 15px;
+display: block;
+}
+.content{
+    width: 85%;
+    padding-left: 5%;
+    padding-right: 0;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.image{
+    width:250px;
+    height: 200px;
+    background-color: #ccc;
+}
+.proName{
+    font-size: 18px;
+    width:250px;
+    display: block;
+font-weight: bold;
+    margin-top: 30px;
+}
+.proPrice
+{display: block;
+    margin-top: 15px;
+    color: red;
+}
+.product{
+    width:15%;
+    display: inline-block;
+   margin-right: 100px;
+   margin-bottom: 70px;
+   background-color: transparent;
+   margin-top: 40px;
+   cursor: pointer;
+}
+h4{
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+   color: #2e228a;
+display: block;
+    margin-bottom: 0px;
+}
+h4 span{
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 15px;
+    color: #000;
+}
